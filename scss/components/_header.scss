@@ -1,0 +1,50 @@
+/* Header Start*/
+
+.header_container{
+    top: 0;
+    @extend %flex;
+    position: fixed;
+    background-color: white;
+    padding: 60px 15px;
+    font-family: $tipo-fuente;
+    height: 100px;
+    z-index: 2;
+    
+    .logo{
+        margin: 0 20px 0 50px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+
+        &:hover{
+            transform: scale(1.5);
+            transition: all 1s;
+        }
+    }
+
+    .navigation{
+        @extend %flex;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        padding-top: 15px;
+        justify-content: space-around;
+        align-items: center;
+        width: inherit;
+            
+            a{
+                text-decoration: none;
+                color: $color-ppal;
+                font-size: 1.4rem;
+                padding: 0px 25px;
+                font-weight: bold;
+                font-style: italic;
+                white-space: normal;
+    
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+    }
+}
+
+/* Header End*/

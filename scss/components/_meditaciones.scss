@@ -1,0 +1,29 @@
+/*Meditaciones Start*/
+
+.carousel_container{
+    margin-top: 140px;
+    top: 140px;
+    display: grid;
+    grid-template-columns: auto 25% auto;
+    z-index: 1;
+
+    .car_item{
+        grid-column: 2;
+    }
+    
+    .imagen_playa{
+        height:100%;
+        width:100%;
+        border-radius: 70px;
+    }
+
+}
+
+.titulosMeds{
+    padding-right: 40px;
+    font-family: 'Bad Script', cursive;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/*Maditaciones End*/

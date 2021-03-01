@@ -1,0 +1,54 @@
+/*Comienzo Formulario*/
+.registro2{
+    margin-top: 180px;
+    margin-left: 10px;
+    background-color: rgb(241, 233, 233);
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 80%;
+}
+
+.form-row{
+    @include justify(flex-start);
+    margin: 0 0 40px 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+        label{
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+        input[type='text'] ,
+        input[type='email'],
+        textarea,
+        select {
+            font-size: 1.2rem;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid lightblue;
+            border-radius: 4px;
+        }
+
+        select{
+            width: 49%;
+        }
+
+        #country{
+            width: 49%;
+            justify-content: flex-end;
+        }
+
+        .countries{
+            @include justify(space-between);
+        }
+}
+
+button{
+    width: 30%;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 2px;
+    background-color: $color-ppal;
+}
+/*Fin Formulario*/

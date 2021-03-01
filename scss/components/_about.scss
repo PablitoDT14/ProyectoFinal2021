@@ -1,0 +1,35 @@
+/*Comienzo About*/
+.about{
+    @include justify(center);
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+    .imagen_about{
+        height: 500px;
+        width: 500px;
+        border-radius: 60px;
+        transform-origin: center center;
+        transition: transform 3s;
+        &:hover{
+            transform: rotate(20deg) ;
+        }
+    }    
+}
+
+.acercaDe{
+    font-size: 1.5rem;
+    font-family: $tipo-fuente2;
+    width: 620px;
+    text-align: center;
+    margin: 0px 60px;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+        &:hover{
+            transform: translate(60px, -30px) ;
+            transition: all 1s ease-out;
+        }
+}
+
+/*Fin About*/

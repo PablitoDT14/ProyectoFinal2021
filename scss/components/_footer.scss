@@ -1,0 +1,35 @@
+/* Footer Start*/
+
+.footer_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 2rem;
+
+    .img_index_final{
+        grid-column: 2 / 4;
+        margin: 50px 0;
+        width: 800px;
+        height: 400px;
+        border-radius: 500px;
+    }
+
+    .fab , .far {
+        padding: 0 20px 20px 0;
+        color: $color-ppal;
+    }
+    
+    .wapp{
+        text-align: right;
+    }
+    
+    .sobre{
+        text-align: center;
+    }
+    
+    .fa-instagram{
+        text-align: left;
+    }
+
+}
+
+/* Footer End*/
