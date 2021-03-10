@@ -1,5 +1,5 @@
 /* Tablet */
-@media only screen and (min-width:433px) and (max-width: 1255px){
+@media only screen and (min-width:433px) and (max-width: 1371px){
 
     .header_container{
         .navigation{
@@ -13,5 +13,66 @@
         }
    }
 
+   .first_container{
+       .foto, .frase{
+           width: 80%;
+           justify-content: center;
+           flex-wrap: wrap;
+           .img_index{
+               margin: 0 40px 0 170px;
+               width: 80%;
+           }           
+       }
+   }
+
+   .accesos_container{
+        justify-content: center;
+        .accesos{
+           
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 75%;
+
+            .item_2{
+                width: 100%;
+                padding: 50px;
+                padding-left: 500px;
+                justify-content: center;
+                &:hover{
+                    transform: none;
+                    transition: none;
+                }
+                
+            }
+        }
+        .frasePrincipal{
+            width: 80%;
+            flex-wrap: wrap;
+        }
+   }
+
+   .footer_container{
+       width: 80%;
+       flex-wrap: wrap;
+       .img_index_final{
+        grid-column:  2/4;
+        margin: 50px 0;
+        width: 800px;
+        height: 400px;
+        border-radius: 500px;
+    }
+    .wapp{
+        text-align: right;
+    }
+    
+    .sobre{
+        text-align: right;
+    }
+    
+    .ig{
+        text-align: right;
+    }
+   }
 
 }

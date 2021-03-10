@@ -1,60 +1,94 @@
-@media only screen and (max-width: 432px){
+//Mobile
+@media only screen and (max-width: 640px) {
+
     .header_container{
-        top: 0px;
-        position: fixed;
-        display: flex;
-        width: 100%;
-        background-color: white;
-        padding: 15px 15px;
-        font-family: 'Marck Script', cursive;
-    }
+        .navigation{
+            width: 80%;
+            flex-wrap: wrap;
+            li {
+                padding-bottom: 20px;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+   }
 
-    .navigation{
-        display: flex;
-        width: 80%;
-        justify-content: space-around;
-        align-items: center;
-    }
+   .accesos_container{
+        .accesos{
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        .item1{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+           
+        }
+        .item2{
+            padding: 0;
+            text-align: center;
+        }
+   }
 
-    .navigation{
-        display: flex;
-        flex-wrap: wrap;
-        width: 60%;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-
-    .img_index{
-        width: 100%;
-
-    }
-
-    .img_index_links{
-        width: 50%;
-    }
-
-
-    .sign-up, .feature-1, .feature-2, .feature-3{
-        width: 50% !important;
-    }
-    .header{
-        display: none;
-    }
-
-    .navigation a{
-        text-align: center;
-    }
-
-    .frasePrincipal{
-        text-align: center;
-    }
-
-    .img_index_final{
-        width: 75%;
-    }
-
-    .text_index_links{
-        text-align: center;
-    }
 }
+// @media only screen and (max-width: 432px){
+//     .header_container{
+//         top: 0px;
+//         position: fixed;
+//         display: flex;
+//         width: 100%;
+//         background-color: white;
+//         padding: 15px 15px;
+//         font-family: 'Marck Script', cursive;
+//     }
+
+//     .navigation{
+//         display: flex;
+//         width: 80%;
+//         justify-content: space-around;
+//         align-items: center;
+//     }
+
+//     .navigation{
+//         display: flex;
+//         flex-wrap: wrap;
+//         width: 60%;
+//         justify-content: space-around;
+//         align-items: center;
+//     }
+
+
+//     .img_index{
+//         width: 100%;
+
+//     }
+
+//     .img_index_links{
+//         width: 50%;
+//     }
+
+
+//     .sign-up, .feature-1, .feature-2, .feature-3{
+//         width: 50% !important;
+//     }
+//     .header{
+//         display: none;
+//     }
+
+//     .navigation a{
+//         text-align: center;
+//     }
+
+//     .frasePrincipal{
+//         text-align: center;
+//     }
+
+//     .img_index_final{
+//         width: 75%;
+//     }
+
+//     .text_index_links{
+//         text-align: center;
+//     }
+// }
