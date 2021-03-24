@@ -23,14 +23,14 @@
     }
 
     .navigation{
-        @extend %flex;
+        display: flex;
         letter-spacing: 2px;
         word-spacing: 2px;
         padding-top: 15px;
         justify-content: space-around;
         align-items: center;
         width: inherit;
-            
+            li{
             a{
                 text-decoration: none;
                 color: $color-ppal;
@@ -40,11 +40,29 @@
                 font-style: italic;
                 white-space: normal;
     
-                &:hover{
+                &:hover,&:active{
                     text-decoration: underline;
                 }
             }
+        }
     }
+}
+
+@media only screen and (max-width:993px){
+    .header_container{
+        margin-bottom: 20px;
+    }
+    .navbar{
+        background: rgb(228, 226, 195);
+        
+    }
+    ul.navigation{
+        li{
+            display: flex;
+            align-items:flex-end;
+            margin-right: 20px;
+        }
+        }
 }
 
 /* Header End*/
