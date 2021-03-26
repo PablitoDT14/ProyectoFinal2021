@@ -19,4 +19,19 @@ footer{
 }
 
 
+@media only screen and (max-width:993px){
+    footer{
+        font-size: 1.7rem;
+        .img_index_final{
+            width: 75vw;
+            height: 50vh;
+        }
+        .fab, .far {
+            margin: 0 20px;
+            flex-direction: column;
+        }
+    }
+}
+
+
 /* Footer End*/

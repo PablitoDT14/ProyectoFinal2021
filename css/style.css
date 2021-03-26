@@ -174,6 +174,31 @@
 }
 
 /*Fin segunda sección contenedora*/
+@media only screen and (max-width: 993px) {
+  .first_container .frase .frasePrincipal {
+    margin: 0 10px;
+    font-size: 1.9rem;
+  }
+
+  .accesos_container .title .frasePrincipal {
+    margin: 0 10px;
+    font-size: 1.9rem;
+  }
+  .accesos_container .accesos .item_1 {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .accesos_container .accesos .item_2 {
+    padding: 20px 0;
+  }
+  .accesos_container .text_index_links {
+    text-align: center;
+  }
+  .accesos_container .img_index_links {
+    width: 45vw;
+    height: 50vh;
+  }
+}
 /* Footer Start*/
 .img_index_final {
   margin: 60px 50px;
@@ -192,6 +217,19 @@ footer .fab, footer .far {
   color: goldenrod;
 }
 
+@media only screen and (max-width: 993px) {
+  footer {
+    font-size: 1.7rem;
+  }
+  footer .img_index_final {
+    width: 75vw;
+    height: 50vh;
+  }
+  footer .fab, footer .far {
+    margin: 0 20px;
+    flex-direction: column;
+  }
+}
 /* Footer End*/
 /*Meditaciones Start*/
 .carousel_container {
