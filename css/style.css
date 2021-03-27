@@ -232,29 +232,45 @@ footer .fab, footer .far {
 }
 /* Footer End*/
 /*Meditaciones Start*/
-.carousel_container {
-  margin-top: 140px;
+.meds_container {
+  margin-top: 150px;
   top: 140px;
-  display: grid;
-  grid-template-columns: auto 25% auto;
   z-index: 1;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-.carousel_container .car_item {
+.meds_container .meds_photo {
+  grid-column: 1;
+  text-align: center;
+  margin-left: 15px;
+}
+.meds_container .meds_photo .imagen_playa {
+  height: 70vh;
+  width: 30vw;
+  border-radius: 30%;
+}
+.meds_container .meditations {
   grid-column: 2;
+  text-align: left;
 }
-.carousel_container .imagen_playa {
-  height: 100%;
-  width: 100%;
-  border-radius: 70px;
-}
-
-.titulosMeds {
-  padding-right: 40px;
+.meds_container .meditations .titulosMeds {
+  width: 65vw;
+  color: goldenrod;
+  padding: 15px 40px 0 0;
   font-family: "Bad Script", cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: italic;
 }
 
+@media only screen and (max-width: 993px) {
+  .meds_container .meds_photo {
+    flex-wrap: wrap;
+  }
+  .meds_container .meds_photo .imagen_playa {
+    height: 50vh;
+  }
+}
 /*Maditaciones End*/
 /* Comienzo Videoteca*/
 .videotec2 {
@@ -304,6 +320,24 @@ footer .fab, footer .far {
   transition: all 1s ease-out;
 }
 
+@media only screen and (max-width: 993px) {
+  .about {
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .about .imagen_about {
+    width: 60vw;
+    height: 60vh;
+  }
+  .about .imagen_about:hover {
+    transform: none;
+  }
+  .about .acercaDe {
+    padding: 70px 0 0 0;
+    width: 75vw;
+  }
+}
 /*Fin About*/
 /*Comienzo Formulario*/
 .registro2 {

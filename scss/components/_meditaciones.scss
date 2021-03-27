@@ -1,29 +1,44 @@
 /*Meditaciones Start*/
 
-.carousel_container{
-    margin-top: 140px;
-    top: 140px;
-    display: grid;
-    grid-template-columns: auto 25% auto;
-    z-index: 1;
-
-    .car_item{
-        grid-column: 2;
+ .meds_container{
+        margin-top: 150px;
+        top: 140px;
+        z-index: 1;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+     .meds_photo{
+         grid-column: 1;
+         text-align: center;
+         margin-left: 15px;
+         .imagen_playa{
+             height:70vh;
+             width:30vw;
+             border-radius: 30%;
+        }
     }
-    
-    .imagen_playa{
-        height:100%;
-        width:100%;
-        border-radius: 70px;
+        .meditations{
+                grid-column: 2;
+                text-align: left;
+            .titulosMeds{
+                width: 65vw;
+                color: $color-ppal;
+                padding: 15px 40px 0 0;
+                font-family: 'Bad Script', cursive;
+                font-size: 1.5rem;
+                font-style: italic;
+            }
+            
+        }
+    } 
+    @media only screen and (max-width:993px){
+        .meds_container{
+            .meds_photo{
+                flex-wrap: wrap;
+                .imagen_playa{
+                    height: 50vh;
+                }
+            }
+        }
     }
-
-}
-
-.titulosMeds{
-    padding-right: 40px;
-    font-family: 'Bad Script', cursive;
-    font-size: 2rem;
-    font-style: italic;
-}
-
 /*Maditaciones End*/

@@ -32,4 +32,22 @@
         }
 }
 
+@media only screen and (max-width:993px){
+    .about{
+        padding:0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .imagen_about{
+            width: 60vw;
+            height: 60vh;
+            &:hover{
+                transform: none;
+            }
+        }
+        .acercaDe{
+            padding: 70px 0 0 0;
+            width: 75vw;
+        }
+}
+}
 /*Fin About*/
