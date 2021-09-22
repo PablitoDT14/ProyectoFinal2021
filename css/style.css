@@ -306,16 +306,52 @@ footer .fab, footer .far {
 .videotec2 {
   display: flex;
   justify-content: center;
-  margin: 200px 20px 100px 20px;
+  margin: 200px 0px 100px 0px;
 }
+
+.videotec3 {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 60px 0px;
+}
+
+.videotec3 .videoteca2 {
+  float: left;
+  border-radius: 5%;
+}
+
 .videotec2 .videoteca2 {
   float: left;
   border-radius: 5%;
-  margin-right: 60px;
 }
 .videotec2 .texto_info {
   color: goldenrod;
   font-size: 2rem;
+  display: block;
+}
+
+hr:not([size]) {
+  height: 10px;
+  background-color: goldenrod;
+}
+
+.texto_videos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.texto_videos .texto_mision {
+  width: 75%;
+  font-size: 1.4rem;
+  font-family: "Roboto", cursive;
+  text-align: center;
+}
+
+
+video{
+  display: block;
 }
 
 /* Fin videoteca*/
