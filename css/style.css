@@ -389,6 +389,19 @@ video{
   transition: all 1s ease-out;
 }
 
+.acercaDe2 {
+  font-size: 2rem;
+  font-family: "Bad Script", cursive;
+  width: 90%;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0px 60px;
+  font-style: italic;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  background-color: #f1e9e9;
+}
+
 @media only screen and (max-width: 993px) {
   .about {
     padding: 0;
